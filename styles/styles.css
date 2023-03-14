@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit'
+}
+
+
+body{
+    font-size: 18px;
+    background-color: hsl(217, 54%, 11%);
+}
+
+
+main{
+    min-height: 100dvh;
+}
+
+.card{
+    background-color: hsl(216, 50%, 16%);
+    margin: 0 2rem;
+    padding: 1.5rem ;
+    border-radius: 0.8rem;
+    max-width: 310px;
+
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.flex img{
+    max-width: 275px;
+    border-radius: 0.8rem;
+
+
+}
+
+.flex img:hover{
+    
+
+}
+
+h1{
+    font-size: 24px;
+    margin: 1rem auto 1rem 0;
+    color: #fff;
+}
+
+p{
+    color: hsl(215, 51%, 70%);
+    line-height: 1.5;
+}
+
+.footer{
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+ 
+}
+
+.footer img{
+
+    width: 30px;
+    border-style: solid ;
+    border-color: #fff;
+    border-width: 1px;
+    margin-right: auto;
+}
+
+.footer img:hover{
+
+}
+
+.eth{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.eth-inner{
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+
+}
+
+.days{
+    color:hsl(215, 51%, 70%);
+    display: flex;
+    gap: 0.5rem;
+   
+}
+
+.days img{
+    margin: auto;
+}
+
+.left{
+    width: 100%;
+}
+
+
+
+
+
+
+.footer::before{
+    content: '';
+    display: block;
+    background: hsl(215, 32%, 27%);
+    height: 1px;
+    width: 100%;
+    margin: 1rem 0;
+    
+
+
+}
+
+.creation{
+    display: inline;
+    color: hsl(215, 51%, 70%);
+    margin-right: 10%;
+}
+
+.name{
+    color: #fff;
+    display: inline;
+}
+
+.name:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.hide{
+    position: absolute;
+    top: 32.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -99;
+
+}
+
+.flex img:hover{
+    z-index: -99;
+}
+
+.hide:hover {
+    z-index: 99;
+}
+
